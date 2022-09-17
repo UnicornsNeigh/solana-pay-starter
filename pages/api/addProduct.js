@@ -1,6 +1,6 @@
 import products from './products.json';
 import fs from "fs";
-
+//
 export default function handler(req, res) {
     if (req.method === "POST") {
         try {
