@@ -3,7 +3,7 @@ import { Keypair, Transaction } from "@solana/web3.js";
 import { findReference, FindReferenceError } from "@solana/pay";
 import { useConnection, useWallet } from "@solana/wallet-adapter-react";
 import { InfinitySpin } from "react-loader-spinner";
-import IPFSDownload from "./ipfs";
+import IPFSDownload from "./Ipfs";
 import { addOrder, hasPurchased, fetchItem } from '../lib/api';
 
 const STATUS = {

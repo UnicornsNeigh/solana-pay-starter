@@ -1,6 +1,5 @@
 import React from "react";
 import styles from "../styles/Product.module.css";
-import IPFSDownload from './ipfs';
 import Buy from "./Buy";
 
 export default function Product({ product }) {
